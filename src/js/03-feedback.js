@@ -1,4 +1,3 @@
-
 const LOCALSTORAGE_KEY = 'selectedFilters';
 const formEl = document.querySelector('.feedback-form');
 
