@@ -8,7 +8,7 @@ feedbackForm.addEventListener('submit',(e) => {
     e.preventDefault()
     const case1 = {
         email: e.target.email.value,
-        password: e.target.email.value
+        password: e.target.password.value
     }
     console.log(case1);
     e.currentTarget.reset()
