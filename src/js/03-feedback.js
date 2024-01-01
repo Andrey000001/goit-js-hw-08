@@ -6,9 +6,10 @@ feedbackForm.addEventListener('input',throttle(localAdd,500))
 pageReload()
 feedbackForm.addEventListener('submit',(e) => {
     e.preventDefault()
+    console.log(e.currentTarget);
     const case1 = {
-        email: e.target.email.value,
-        password: e.target.password.value
+        email: e.currentTarget.email.value,
+        message: e.currentTarget.message.value
     }
     console.log(case1);
     e.currentTarget.reset()
